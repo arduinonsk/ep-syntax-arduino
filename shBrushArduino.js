@@ -22,6 +22,7 @@
 	function Brush()
 	{
 		// Copyright 2006 Shin, YoungJin
+		// Arduino addon 2016 Dubkov Ilya
 	
 		var datatypes =	'void boolean char unsigned signed byte int word long ' +
 						'short double float string String'
@@ -33,7 +34,7 @@
 						'INPUT INPUT_PULLUP OUTPUT HIGH LOW LED_BUILTIN PROGMEM';
 					
 		var functions =	
-						'Seria Wire SPI Stream setup loop digitalWrite pinMode digitalRead analogWrite ' +
+						'Serial Wire SPI Stream setup loop digitalWrite pinMode digitalRead analogWrite ' +
 						'analogRead  analogReadResolution analogWriteResolution analogReference' +
 						'delay begin available println print write read min max abs constrain' +
 						'map pow sqrt random randomSeed millis micros delayMicroseconds attachInterrupt ' +
