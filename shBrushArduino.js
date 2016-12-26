@@ -35,8 +35,8 @@
 					
 		var functions =	
 						'Serial Wire SPI Stream setup loop digitalWrite pinMode digitalRead analogWrite ' +
-						'analogRead  analogReadResolution analogWriteResolution analogReference' +
-						'delay begin available println print write read min max abs constrain' +
+						'analogRead  analogReadResolution analogWriteResolution analogReference ' +
+						'delay begin available println print write read min max abs constrain ' +
 						'map pow sqrt random randomSeed millis micros delayMicroseconds attachInterrupt ' +
 						'detachInterrupt interrupts noInterrupts pulseln shiftln shiftOut ' + 
 						'tone noTone sin cos tan isAlphaNumeric isAlpha isAscii isWhitespace isControl ' +
